@@ -59,6 +59,6 @@ async function run() {
 }
 
 run().catch((error) => {
-  console.error("Redis caching example failed:", error);
+  console.error("Redis pub/sub  example failed:", error);
   process.exitCode = 1;
 });
